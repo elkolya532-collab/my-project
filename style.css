@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Pacifico', cursive;
+  background: linear-gradient(135deg, #ffd1dc, #ffb6c1, #ffe4e1);
+  color: #ff4d88;
+}
+
+/* login */
+.gate {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+}
+
+/* inputs */
+input {
+  max-width: 320px;
+  margin: auto;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+/* button */
+.btn-pink {
+  background: #ff4d88;
+  color: white;
+  border-radius: 30px;
+}
+
+/* main page */
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.3);
+  z-index: -1;
+}
+
+.glass {
+  background: rgba(255,255,255,0.5);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* love text */
+.love {
+  font-size: 30px;
+}
